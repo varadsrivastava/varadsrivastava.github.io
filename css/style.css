@@ -162,10 +162,9 @@ h1.heading.blue:after {
 }
 
 .client-box {
-  height: 120px
   background-color: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
-  padding: 3.5em 2em;
+  padding: 3.5em 1em;
   border-radius: 5px;
   border: 1px solid #eee;
   text-align: center;
