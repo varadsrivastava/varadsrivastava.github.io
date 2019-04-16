@@ -44,11 +44,6 @@
   line-height: 1.6em;
   margin: 0;
   z-index: 10;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
 }
 .material-card h2 span {
   display: block;
@@ -58,7 +53,7 @@
   display: block;
   font-size: .8em;
 }
-.material-card h2:before,
+/*.material-card h2:before,
 .material-card h2:after {
   content: ' ';
   position: absolute;
@@ -75,7 +70,7 @@
 .material-card h2:after {
   top: auto;
   bottom: 0;
-}
+}*/
 @media screen and (max-width: 767px) {
   .material-card.mc-active {
     padding-bottom: 0;
