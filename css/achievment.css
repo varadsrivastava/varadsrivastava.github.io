@@ -30,12 +30,12 @@
 .material-card {
   position: relative;
   height: 0;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  padding-bottom: calc(100% - 16px);
+  margin-bottom: 6.6em;
 }
 .material-card h2 {
   position: absolute;
-  top: calc(100% - 16px);
+  top: 0;
   left: 0;
   width: 100%;
   padding: 10px 16px;
@@ -324,7 +324,7 @@
 }
 .material-card.Red.mc-active .mc-content {
   background-color: #FFEBEE;
-}
+}*/
 .material-card.Red.mc-active .mc-footer {
   background-color: #FFCDD2;
 }
