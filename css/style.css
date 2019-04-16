@@ -147,7 +147,9 @@ h1.heading.purple:after {
 h1.heading.pink:after {
   background-color: #ff2a75;
 }
-
+h1.heading.blue:after {
+  background-color: #ff2a75;
+}
 
 .swiper-container {
   width: 100%;
