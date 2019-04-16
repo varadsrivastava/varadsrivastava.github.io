@@ -45,7 +45,7 @@ img {
 
 /* Hero Section */
 header.hero {
-  background: url(../assets/hero2-bg.jpg) no-repeat center center fixed;
+  background: url(../assets/hero-bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -543,9 +543,3 @@ ul.main-nav.show-it {
     padding: 1em 0em;
   }
 }
-
-
-
-
-
-
