@@ -1,4 +1,4 @@
-(function ($) {
+function ($) {
 	$.fn.countTo = function (options,viewCounter) {
   if(viewCounter == 1){
 		options = options || {};
