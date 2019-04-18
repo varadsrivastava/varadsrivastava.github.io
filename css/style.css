@@ -220,7 +220,7 @@ h1.heading.blue:after {
 }
 
 
-/* Testimonial */
+/* testimonial */
 .testimonial-box {
   padding: 2em;
   color: #fff;
@@ -548,7 +548,6 @@ ul.main-nav.show-it {
 
 .card {
   /* Add shadows to create the "card" effect */
-  margin-top: 6rem;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 }
