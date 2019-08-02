@@ -1,8 +1,9 @@
 /*!
- * Author: Akash Bhadange
+ * Author: Varad
  */
 
  body {
+  width: auto;
   font-family: 'Open Sans', sans-serif;
   background-color: #f2f2f2;
   font-size: 16px;
