@@ -17,7 +17,7 @@ a {
   transition: all 0.2s;
 }
 section {
-  width: 100%;
+  width: 700px;
 }
 a:hover, a:focus, a:active {
   text-decoration: none;
@@ -31,7 +31,7 @@ ul li {
   list-style: none;
 }
 img {
-  max-width: 70%;
+  max-width: 100%;
 }
 .purple {
   color: #7447ae;
