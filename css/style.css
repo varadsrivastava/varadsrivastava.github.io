@@ -17,7 +17,7 @@ a {
   transition: all 0.2s;
 }
 section {
-  width: 700px;
+  width: 100%;
 }
 a:hover, a:focus, a:active {
   text-decoration: none;
@@ -52,6 +52,7 @@ header.hero {
   background-size: cover;
   color: #fff;
   padding-bottom: 80px;
+  width: 700px;
 }
 
 header.hero .hero-text {
