@@ -49,10 +49,9 @@ header.hero {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: 700px;
   color: #fff;
   padding-bottom: 80px;
-  width : 700px
 }
 
 header.hero .hero-text {
