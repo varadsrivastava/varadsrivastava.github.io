@@ -18,7 +18,7 @@ a {
   transition: all 0.2s;
 }
 section {
-  width: 1700px;
+  width: 100%;
 }
 a:hover, a:focus, a:active {
   text-decoration: none;
@@ -565,4 +565,10 @@ ul.main-nav.show-it {
 
 .achievement {
   padding-top: 8rem;
+}
+
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
 }
