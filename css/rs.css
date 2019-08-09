@@ -5,8 +5,8 @@ span
 {
   color: white;
 }
-.button_goal
+#button_goal
 {
-  position: relative;
-  top : "100px"
+ position: fixed;
+ align-self: center;
 }
