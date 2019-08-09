@@ -17,7 +17,7 @@ a {
   transition: all 0.2s;
 }
 section {
-  width: 650px;
+  width: 550px;
 }
 a:hover, a:focus, a:active {
   text-decoration: none;
