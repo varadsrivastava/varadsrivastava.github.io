@@ -8,6 +8,7 @@ span
 #button_goal
 {
  position: fixed;
- bottom: 0;
- right: 0;
+ top: 100px;
+ bottom: 0px;
+ right: 0px;
 }
