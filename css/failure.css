@@ -1,4 +1,6 @@
-
+body {
+    background-image: url(../assets/mountain.jpg)
+}
 /* Animation Delay */
 .d01{ animation-delay:0.1s; -moz-animation-delay:0.1s; -webkit-animation-delay:0.1s; }
 .d02{ animation-delay:0.2s; -moz-animation-delay:0.2s; -webkit-animation-delay:0.2s; }
