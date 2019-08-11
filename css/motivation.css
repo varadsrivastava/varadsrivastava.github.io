@@ -1,12 +1,9 @@
 /* FontAwesome for working BootSnippet :> */
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-body
-{
-  background-image: url(../assets/download.jpg)
-}
+
 #team {
-    background: #eee !important;
+    background-image: url(../assets/download.jpg)
 }
 
 .btn-primary:hover,
