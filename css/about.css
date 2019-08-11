@@ -165,7 +165,7 @@ section {
 	line-height: 59px;
 	padding: 0 19%;
 	text-transform: uppercase;
-  text-shadow: 5px 5px 10px white;
+  text-shadow: 5px 5px 50px white;
 }
 .main-slider .swiper-pagination-bullet {
 	width: 20px;
