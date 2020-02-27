@@ -37,13 +37,14 @@ span
 }
 .jumbotron
 {
-  margin-top: 100px;
+ margin-top: 100px;
 }
 #fundamental
- {
-    text-align:center;
-    margin-top: 50px;
-  }
-h1 {
-        color:grey;
-    }
+{
+ text-align:center;
+ margin-top: 50px;
+}
+h1
+{
+ color:grey;
+}
