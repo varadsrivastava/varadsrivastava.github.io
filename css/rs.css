@@ -4,6 +4,7 @@ body{
 span
 {
   color: white;
+  margin-top: 20px;
 }
 #button_goal
 {
@@ -34,3 +35,15 @@ span
  position: absolute;
  height: 100%;
 }
+.jumbotron
+{
+  margin-top: 100px;
+}
+#fundamental
+ {
+    text-align:center;
+    margin-top: 50px;
+  }
+h1 {
+        color:grey;
+    }
