@@ -1640,7 +1640,7 @@ body {
   position: absolute;
   content: " ";
   width: 2px;
-  background-color: #4997cd;
+  background-color: #080808;
   left: 50%;
   margin-left: -1.5px;
 }
@@ -1736,7 +1736,7 @@ body {
 	float: right;
 	width: 30%;
 	height: 130px;
-	background-color: floralwhite;
+	background-color: #080808;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel.credits  .timeline-panel-ul .righting-wrap {
 	float: left;
@@ -1758,7 +1758,7 @@ body {
 	float: left;
 	width: 30%;
 	height: 130px;
-	background-color: floralwhite;
+	background-color: #080808;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel.debits  .timeline-panel-ul .righting-wrap {
 	float: right;
