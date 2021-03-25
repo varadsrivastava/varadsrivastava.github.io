@@ -20,7 +20,7 @@ const citymap = {
 function initMap() {
   // Create the map.
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 8,
+    zoom: 4,
     center: { lat: 23.78, lng: 78.90 },
     // mapTypeId: "terrain",
   });
