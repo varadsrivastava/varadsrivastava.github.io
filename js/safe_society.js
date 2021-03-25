@@ -1,6 +1,6 @@
 const citymap = {
-  delhi: {
-    // center: { lat: 41.878, lng: -87.629 },
+  newdelhi: {
+    center: { lat: 28.75, lng: 87.67 },
     population: 2714856,
   },
   newyork: {
