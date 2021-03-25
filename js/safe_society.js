@@ -20,9 +20,9 @@ const citymap = {
 function initMap() {
   // Create the map.
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
+    zoom: 8,
     center: { lat: 23.78, lng: 78.90 },
-    mapTypeId: "terrain",
+    // mapTypeId: "terrain",
   });
 
   // Construct the circle for each value in citymap.
