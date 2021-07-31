@@ -1,0 +1,283 @@
+/**
+* Template Name: Laura - v2.2.1
+* Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #ffb727;
+}
+
+a:hover {
+  color: #ffc85a;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  z-index: 997;
+  transition: all 0.5s;
+  height: 80px;
+  background: rgba(25, 28, 31, 0.8);
+}
+
+#header.header-transparent {
+  background: transparent;
+}
+
+#header.header-scrolled {
+  height: 60px;
+  background: rgba(25, 28, 31, 0.8);
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* Desktop Navigation */
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+}
+
+.section-bg {
+  background-color: white;
+}
+
+.section-title {
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #3b434a;
+  position: relative;
+  z-index: 2;
+}
+
+.section-title span {
+  position: absolute;
+  top: 30px;
+  color: #eef0f2;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+.section-title p {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 575px) {
+  .section-title h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .section-title span {
+    font-size: 38px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+  padding: 20px 0;
+  background-color: #f4f5f6;
+  min-height: 40px;
+  margin-top: 78px;
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs {
+    margin-top: 60px;
+  }
+}
+
+.breadcrumbs h2 {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs h2 {
+    margin: 0 0 10px 0;
+  }
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.breadcrumbs ol li + li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li + li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #6c757d;
+  content: "/";
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs .d-flex {
+    display: block !important;
+  }
+  .breadcrumbs ol {
+    display: block;
+  }
+  .breadcrumbs ol li {
+    display: inline-block;
+  }
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-details {
+  padding-top: 30px;
+}
+
+.portfolio-details .portfolio-details-container {
+  position: relative;
+}
+
+.portfolio-details .portfolio-details-carousel {
+  position: relative;
+  z-index: 1;
+}
+
+.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+  margin-top: 5px;
+  text-align: left;
+}
+
+.portfolio-details .portfolio-details-carousel .owl-dot {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+
+.portfolio-details .portfolio-details-carousel .owl-dot.active {
+  background-color: #ffb727 !important;
+}
+
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  bottom: -70px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li + li {
+  margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+  padding-top: 50px;
+}
+
+.portfolio-details .portfolio-description h2 {
+  width: 50%;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0 0 0 0;
+}
+
+@media (max-width: 768px) {
+  .portfolio-details .portfolio-description h2 {
+    width: 100%;
+  }
+  .portfolio-details .portfolio-info {
+    position: static;
+    margin-top: 30px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Contact Me
+--------------------------------------------------------------*/
+
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
