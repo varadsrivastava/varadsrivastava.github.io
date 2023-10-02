@@ -7525,7 +7525,9 @@ header {
   left: 0;
   right: 0;
   z-index: 9;
-  margin: 0 auto; }
+  margin: 0 auto;
+background-color: #2f89fc;
+}
   @media (max-width: 767.98px) {
     header {
       padding: 2em 0;
