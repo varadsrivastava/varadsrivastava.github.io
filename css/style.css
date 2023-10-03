@@ -7750,7 +7750,7 @@ background-color: #2f89fc;
           font-size: 100px;
           color: rgba(255, 255, 255, 0.08); }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
-          font-size: 280%;
+          font-size: 55px;
           color: #fff;
           line-height: 1.2;
           font-weight: 700;
@@ -7760,7 +7760,7 @@ background-color: #2f89fc;
           position: relative; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
-              font-size: 40px; } }
+              font-size: 180%; } }
         .owl-carousel.home-slider .slider-item .slider-text p {
           font-size: 20px;
           line-height: 1.5;
