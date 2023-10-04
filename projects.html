@@ -89,7 +89,8 @@
             <p class="mb-0">These are some of the projects I'm working on/worked on. If you'd like to collaborate or extend any of the works, do drop me a mail with your idea and interest!</p>
           </div>
           <div class="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
-            <div id="filters" class="filters">
+            <div id="filters" class="filters" style="background-color: #e5e6e8;">
+              <b>Filters:</b>
               <a href="#" data-filter="*" class="active">All</a>
               <a href="#" data-filter=".on">Ongoing</a>
               <a href="#" data-filter=".ai">A.I.</a>
@@ -263,6 +264,7 @@
   <!-- ======= Footer ======= -->
   <footer class="footer" role="contentinfo">
     <div class="container">
+      <button type="button" onclick="topFunction()" id="myBtn" class="btn btn-primary" style="background:#2f88fb;margin:auto">Back to Top</button>
       <div class="row">
         <div class="col-sm-6">
           <p class="mb-1">&copy; Copyright 2023. All Rights Reserved</p>
@@ -277,8 +279,8 @@
           </div>
         </div>
         <div class="col-sm-6 social text-md-right">
-          <a href="https://twitter.com/varad_srivastav"><span class="icofont-twitter"></span></a>
-          <a href="varadsrivastava.iitdelhi@gmail.com"><span class="fa-envelope"></span></a>
+          <a href="https://twitter.com/varad_srivastav"><span class="icon-twitter"></span></a>
+          <a href="mailto:varadsrivastava.iitdelhi@gmail.com"><span class="icon-envelope"></span></a>
           <!-- <a href="#"><span class="icofont-facebook"></span></a>
           <a href="#"><span class="icofont-dribbble"></span></a>
           <a href="#"><span class="icofont-behance"></span></a> -->
@@ -287,7 +289,30 @@
     </div>
   </footer>
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <!-- <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a> -->
+
+  <!-- back to top button -->
+  <script type="text/javascript">
+    //Get the button:
+    mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
