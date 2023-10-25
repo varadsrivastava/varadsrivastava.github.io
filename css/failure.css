@@ -1,14 +1,25 @@
 body {
   font-family: 'Montserrat', sans-serif!important;
-  max-width:1160px;
+  /* max-width:1160px; */
+  color: black;
+  background: white;
 }
 .p-r-l-15 {
-  padding: 15px 30px!important;
+  /* padding: 15px 30px!important; */
+  padding: inherit;
 }
 img
 {
 	vertical-align: middle;
 }
+
+.container-fluid
+{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .img-responsive
 {
 	display: block;
@@ -207,6 +218,7 @@ img
                 line-height: 40px;
                 font-size: 15px;
                 float: left;
+                padding: 10px;
             }
 
                 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-primary {
@@ -218,26 +230,31 @@ img
                 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-secondary {
                     background-color: #ee4749;
                     color: #fff;
+                    padding: 10px;
                 }
 
                 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-success {
                     background-color: #00a651;
                     color: #fff;
+                    padding: 10px;
                 }
 
                 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-info {
                     background-color: #21a9e1;
                     color: #fff;
+                    padding: 10px;
                 }
 
                 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-warning {
                     background-color: #fad839;
                     color: #fff;
+                    padding: 10px;
                 }
 
                 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-danger {
                     background-color: #fcb102;
                     color: #fff;
+                    padding: 10px;
                 }
 
             .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
