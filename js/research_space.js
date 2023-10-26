@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Create a section for the year
             var yearSection = document.createElement('div');
             // yearSection.classList.add('row', 'mb-4');
-            yearSection.classlist.add('card-columns');
+            yearSection.classList.add('card-columns');
 
             // Create a heading for the year
             var yearHeading = document.createElement('h2');
