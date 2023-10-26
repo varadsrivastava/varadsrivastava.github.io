@@ -20,7 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Create a section for the year
             var yearSection = document.createElement('div');
-            yearSection.classList.add('row', 'mb-4');
+            // yearSection.classList.add('row', 'mb-4');
+            yearSection.classlist.add('card-columns');
 
             // Create a heading for the year
             var yearHeading = document.createElement('h2');
@@ -28,13 +29,13 @@ document.addEventListener('DOMContentLoaded', function () {
             yearSection.appendChild(yearHeading);
 
             // Create a row for the cards
-            var cardRow = document.createElement('div');
-            cardRow.classList.add('row');
+            //var cardRow = document.createElement('div');
+            //cardRow.classList.add('row');
 
             // Loop through the data for that year and create cards
             yearData.forEach(function (entry) {
                 var card = document.createElement('div');
-                card.classList.add('col-md-4', 'mb-3');
+                //card.classList.add('col-md-4', 'mb-3');
 
                 card.innerHTML = `
                     <div class="card">
@@ -46,10 +47,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     </div>
                 `;
 
-                cardRow.appendChild(card);
+                //cardRow.appendChild(card);
             });
 
-            yearSection.appendChild(cardRow);
+            yearSection.appendChild(card);
             container.appendChild(yearSection);
         });
     };
