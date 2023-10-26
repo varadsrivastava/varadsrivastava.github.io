@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 card.innerHTML = `
                     <div class="card">
-                        <img src="images/blog/${entry.image}" class="card-img-top" alt="${entry.title}">
+                        ${entry.image ? `<img src="images/blog/${entry.image}" class="card-img-top" alt="${entry.title}">` : ''}
                         <div class="card-body">
                             <h5 class="card-title">${entry.title}</h5>
                             <p class="card-text">${entry.body}</p>
