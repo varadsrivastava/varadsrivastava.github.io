@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Create a heading for the year
             var yearHeading = document.createElement('h2');
             yearHeading.textContent = year;
+            yearHeading.classList.add('text-center'); // Add this line to center align the year heading
             yearSection.appendChild(yearHeading);
 
             // Create a row for the cards
