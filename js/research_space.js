@@ -18,10 +18,9 @@ document.addEventListener('DOMContentLoaded', function () {
         workbook.SheetNames.forEach(function (year) {
             var yearData = XLSX.utils.sheet_to_json(workbook.Sheets[year]);
 
-            // Create a section for the year
+            // Create a section for the content of respective year
             var yearSection = document.createElement('div');
-            // yearSection.classList.add('row', 'mb-4');
-            yearSection.classList.add('card-columns');
+            yearSection.classList.add('container')
 
             // Create a heading for the year
             var yearHeading = document.createElement('h2');
@@ -29,13 +28,18 @@ document.addEventListener('DOMContentLoaded', function () {
             yearHeading.classList.add('text-center'); // Add this line to center align the year heading
             yearSection.appendChild(yearHeading);
 
+
+            // yearSection.classList.add('row', 'mb-4');
+            // yearSection.classList.add('card-columns');
+
+
             // Create a row for the cards
             //var cardRow = document.createElement('div');
             //cardRow.classList.add('row');
 
             // Create a container for the cards
             var cardContainer = document.createElement('div');
-            cardContainer.classList.add('card-container');
+            cardContainer.classList.add('card-columns');
 
             // Loop through the data for that year and create cards
             yearData.forEach(function (entry) {
