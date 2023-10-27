@@ -48,9 +48,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 `;
 
                 //cardRow.appendChild(card);
+                yearSection.appendChild(card);
+
             });
 
-            yearSection.appendChild(card);
+            //yearSection.appendChild(card);
             container.appendChild(yearSection);
         });
     };
