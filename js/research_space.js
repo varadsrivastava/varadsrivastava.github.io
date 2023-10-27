@@ -33,27 +33,31 @@ document.addEventListener('DOMContentLoaded', function () {
             //var cardRow = document.createElement('div');
             //cardRow.classList.add('row');
 
+            // Create a container for the cards
+            var cardContainer = document.createElement('div');
+            cardContainer.classList.add('card-container');
+
             // Loop through the data for that year and create cards
             yearData.forEach(function (entry) {
                 var card = document.createElement('div');
                 //card.classList.add('col-md-4', 'mb-3');
+                card.classList.add('card');
 
                 card.innerHTML = `
-                    <div class="card">
                         ${entry.image ? `<img src="images/blog/${entry.image}" class="card-img-top" alt="${entry.title}">` : ''}
                         <div class="card-body">
                             <h5 class="card-title">${entry.title}</h5>
                             <p class="card-text">${entry.body}</p>
                         </div>
-                    </div>
                 `;
 
                 //cardRow.appendChild(card);
-                yearSection.appendChild(card);
+                cardContainer.appendChild(card);
 
             });
 
-            //yearSection.appendChild(card);
+            //yearSection.appendChild(card
+            yearSection.appendChild(cardContainer);
             container.appendChild(yearSection);
         });
     };
