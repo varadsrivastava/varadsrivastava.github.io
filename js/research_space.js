@@ -28,20 +28,18 @@ document.addEventListener('DOMContentLoaded', function () {
             var yearHeading = document.createElement('h2');
             yearHeading.textContent = year;
             yearHeading.classList.add('text-center'); // Add this line to center align the year heading
-            yearSection.appendChild(yearHeading);
 
             // add font awesome icons
             var topbutton = document.createElement('i');
             topbutton.setAttribute('class', 'fas fa-arrow-alt-circle-up');
+            topbutton.setAttribute('href', '#jumbo');
             yearSection.appendChild(topbutton);
 
-            // yearSection.classList.add('row', 'mb-4');
-            // yearSection.classList.add('card-columns');
+            // add icon after year Heading
+            yearHeading.appendChild(topbutton);
+            // add year heading to section
+            yearSection.appendChild(yearHeading);
 
-
-            // Create a row for the cards
-            //var cardRow = document.createElement('div');
-            //cardRow.classList.add('row');
 
             // Create a container for the cards
             var cardContainer = document.createElement('div');
