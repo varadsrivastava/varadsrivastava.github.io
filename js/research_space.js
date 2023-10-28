@@ -29,14 +29,15 @@ document.addEventListener('DOMContentLoaded', function () {
             yearHeading.textContent = year;
             yearHeading.classList.add('text-center'); // Add this line to center align the year heading
 
-            // add font awesome icons
+            // add font awesome icons and wrapping them in anchor tag
+            var anchortag = document.createElement('a');
+            anchortag.setAttribute('href','#jumbo');
             var topbutton = document.createElement('i');
-            topbutton.setAttribute('class', 'btn btn-light fas fa-arrow-alt-circle-up');
-            topbutton.setAttribute('href', '#jumbo');
-            yearSection.appendChild(topbutton);
+            topbutton.setAttribute('class', 'fas fa-arrow-alt-circle-up');
+            anchortag.appendChild(topbutton);
 
             // add icon after year Heading
-            yearHeading.appendChild(topbutton);
+            yearHeading.appendChild(anchortag);
             // add year heading to section
             yearSection.appendChild(yearHeading);
 
