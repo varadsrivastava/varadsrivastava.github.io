@@ -32,8 +32,10 @@ document.addEventListener('DOMContentLoaded', function () {
             // add font awesome icons and wrapping them in anchor tag
             var anchortag = document.createElement('a');
             anchortag.setAttribute('href','#jumbo');
+            anchortag.setAttribute('target','_blank');
             var topbutton = document.createElement('i');
             topbutton.setAttribute('class', 'fas fa-arrow-alt-circle-up');
+            topbutton.setAttribute('style','color: black;');
             anchortag.appendChild(topbutton);
 
             // add icon after year Heading
