@@ -30,16 +30,16 @@ document.addEventListener('DOMContentLoaded', function () {
             yearHeading.classList.add('text-center'); // Add this line to center align the year heading
 
             // add font awesome icons and wrapping them in anchor tag
-            var anchortag = document.createElement('a');
-            anchortag.setAttribute('href','#jumbo');
-            anchortag.setAttribute('target','_blank');
-            anchortag.setAttribute('style','color: black;');
-            var topbutton = document.createElement('i');
-            topbutton.setAttribute('class', 'fas fa-arrow-alt-circle-up');
-            anchortag.appendChild(topbutton);
+            // var anchortag = document.createElement('a');
+            // anchortag.setAttribute('href','#jumbo');
+            // anchortag.setAttribute('target','_blank');
+            // anchortag.setAttribute('style','color: black;');
+            // var topbutton = document.createElement('i');
+            // topbutton.setAttribute('class', 'fas fa-arrow-alt-circle-up');
+            // anchortag.appendChild(topbutton);
 
             // add icon after year Heading
-            yearHeading.appendChild(anchortag);
+            // yearHeading.appendChild(anchortag);
             // add year heading to section
             yearSection.appendChild(yearHeading);
 
