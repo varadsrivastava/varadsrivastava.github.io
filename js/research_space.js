@@ -30,6 +30,10 @@ document.addEventListener('DOMContentLoaded', function () {
             yearHeading.classList.add('text-center'); // Add this line to center align the year heading
             yearSection.appendChild(yearHeading);
 
+            // add font awesome icons
+            var topbutton = document.createElement('i');
+            topbutton.classList.add('fa-solid fa-circle-up');
+            yearSection.appendChild(topbutton);
 
             // yearSection.classList.add('row', 'mb-4');
             // yearSection.classList.add('card-columns');
