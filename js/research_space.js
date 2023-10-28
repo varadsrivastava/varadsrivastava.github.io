@@ -33,9 +33,9 @@ document.addEventListener('DOMContentLoaded', function () {
             var anchortag = document.createElement('a');
             anchortag.setAttribute('href','#jumbo');
             anchortag.setAttribute('target','_blank');
+            anchortag.setAttribute('style','color: black;');
             var topbutton = document.createElement('i');
             topbutton.setAttribute('class', 'fas fa-arrow-alt-circle-up');
-            topbutton.setAttribute('style','color: black;');
             anchortag.appendChild(topbutton);
 
             // add icon after year Heading
