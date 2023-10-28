@@ -20,7 +20,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Create a section for the content of respective year
             var yearSection = document.createElement('div');
-            yearSection.classList.add('container')
+            yearSection.classList.add('container');
+            yearSection.setAttribute('id', year);
+
 
             // Create a heading for the year
             var yearHeading = document.createElement('h2');

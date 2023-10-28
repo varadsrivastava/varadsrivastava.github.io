@@ -118,7 +118,20 @@
   <!-- <p class="lead">
     <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
   </p> -->
+
+  <!-- Selector (Dropdown) -->
+        <select id="sectionSelector" class="selectpicker" data-style="btn-primary">
+          <label for="sectionSelector">Select a year to travel to:</label>
+            <option value="#2023">2023</option>
+            <option value="#2022">2022</option>
+            <option value="#2021">2021</option>
+            <option value="#2020">2020</option>
+            <option value="#2019">2019</option>
+        </select>
+
+
 </div>
+
 
 <div class="container">
         <!-- Year-wise sections will go here -->
@@ -142,7 +155,17 @@
 <script src="js/research_space.js"></script> <!-- Your JavaScript file -->
 
 
-
+<script>
+    // Smooth scrolling for section selector
+    document.getElementById('sectionSelector').addEventListener('change', function () {
+        var selectedSection = this.value;
+        if (selectedSection !== "") {
+            $('html, body').animate({
+                scrollTop: $(selectedSection).offset().top
+            }, 800);
+        }
+    });
+</script>
 
 
 </body>
