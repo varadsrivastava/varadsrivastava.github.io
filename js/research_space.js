@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // add font awesome icons
             var topbutton = document.createElement('i');
-            topbutton.setAttribute('class', 'fas fa-arrow-alt-circle-up');
+            topbutton.setAttribute('class', 'btn btn-light fas fa-arrow-alt-circle-up');
             topbutton.setAttribute('href', '#jumbo');
             yearSection.appendChild(topbutton);
 
