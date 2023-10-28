@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // add font awesome icons
             var topbutton = document.createElement('i');
-            topbutton.setAttribute('class', 'fa-solid fa-circle-up');
+            topbutton.setAttribute('class', 'fas fa-arrow-alt-circle-up');
             yearSection.appendChild(topbutton);
 
             // yearSection.classList.add('row', 'mb-4');
