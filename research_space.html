@@ -27,7 +27,7 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
 
   <!-- CSS Files -->
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="assets/vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.css">
@@ -91,38 +91,23 @@
     <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
   </p> -->
 
-  <!-- Selector (Dropdown) -->
-  <!-- <div class="input-group mb-3">
-      <div class="input-group-prepend">
-          <label class="input-group-text" for="sectionSelector">Select year to travel to:</label>
-      </div>
-  <select id="sectionSelector" class="selectpicker" data-style="btn-primary">
-      <option value="#2023">2023</option>
-      <option value="#2022">2022</option>
-      <option value="#2021">2021</option>
-      <option value="#2020">2020</option>
-      <option value="#2019">2019</option>
-  </select>
-</div> -->
-
 <div class="input-group mb-3">
     <div class="input-group-prepend">
         <label class="input-group-text" for="sectionSelector">Select year to travel to:</label>
     </div>
     <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Year
         </button>
-        <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#2023">2023</a></li>
-        <li><a class="dropdown-item" href="#2022">2022</a></li>
-        <li><a class="dropdown-item" href="#2021">2021</a></li>
-        <li><a class="dropdown-item" href="#2020">2020</a></li>
-        <li><a class="dropdown-item" href="#2019">2019</a></li>
-      </ul>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#2023">2023</a>
+            <a class="dropdown-item" href="#2022">2022</a>
+            <a class="dropdown-item" href="#2021">2021</a>
+            <a class="dropdown-item" href="#2020">2020</a>
+            <a class="dropdown-item" href="#2019">2019</a>
+        </div>
     </div>
 </div>
-
 
 </div>
 
@@ -133,8 +118,9 @@
 
 
 <!-- SCRIPTS -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <!-- use version 0.20.0 -->
 <script lang="javascript" src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"></script>
 <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
