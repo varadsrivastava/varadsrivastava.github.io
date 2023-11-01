@@ -6,6 +6,10 @@ span
   color: white;
   margin-top: 50px;
 }
+.particles-js-canvas-el {
+height: 100vmax !important;
+z-index: 0;
+}
 #button_goal
 {
  position: relative;
