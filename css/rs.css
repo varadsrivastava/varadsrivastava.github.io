@@ -7,8 +7,7 @@ span
   margin-top: 50px;
 }
 .particles-js-canvas-el {
-height: 100vmax !important;
-z-index: 0;
+min-height: 8000px;
 }
 #button_goal
 {
